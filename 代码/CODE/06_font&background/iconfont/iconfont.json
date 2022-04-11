@@ -1,0 +1,58 @@
+{
+  "id": "3278261",
+  "name": "atguigu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "28513551",
+      "name": "首页-01",
+      "font_class": "shouye-01",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "28513552",
+      "name": "文件夹-01",
+      "font_class": "wenjianjia-01",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "28513553",
+      "name": "删除-01",
+      "font_class": "shanchu-01",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "28513554",
+      "name": "图片-01",
+      "font_class": "tupian-01",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "28513556",
+      "name": "下载-01",
+      "font_class": "xiazai-01",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "28513559",
+      "name": "设置-01",
+      "font_class": "shezhi-01",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "28513563",
+      "name": "消息-01-01",
+      "font_class": "xiaoxi-01-01",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}
