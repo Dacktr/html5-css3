@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京东的左侧导航</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        /* 设置body */
+        body {
+            /* 设置一个网页的背景，以使我们方便 */
+            background-color: #bfa;
+        }
+
+        /* 设置菜单外部容器 */
+        .left-nav {
+            /* 设置宽度 */
+            width: 192px;
+            /* 设置高度 */
+            height: 450px;
+            /* 设置padding */
+            padding: 10px 0;
+            /* 设置一个背景颜色 */
+            background-color: #fff;
+
+            margin: 50px auto;
+        }
+
+        /* 设置菜单内部的item */
+        .left-nav .item {
+            height: 25px;
+            /* 要让一个文字在父元素中垂直居中，只需将父元素的line-height设置为一个和父元素height一样的值 */
+            line-height: 25px;
+            /* margin-left: 18px; */
+            /* 设置item的右边距，将文字向内移动 */
+            padding-left: 18px;
+            /* 设置字体大小
+            font-size: 12px; */
+
+        }
+
+        /* 为span设置样式 */
+        span {
+            /* 设置字体大小 和 内边距*/
+            font-size: 12px;
+            padding: 0 0.2px;
+        }
+
+        /* 为item设置一个鼠标移入的状态 */
+        .item:hover {
+            background-color: #d9d9d9;
+        }
+
+        /* 设置超链接样式 */
+        .item a {
+            /* 设置字体大小 */
+            font-size: 14px;
+            /* 设置字体颜色 */
+            color: #333;
+            /* 去除下划线 */
+            text-decoration: none;
+        }
+
+        /* 设置超链接的hover的样式 */
+        .item a:hover {
+            color: #c81623;
+        }
+
+        /* .box1{
+            width: 200px;
+            height: 440px;
+            background-color: whitesmoke;
+        }
+        span{
+            font-size: 14px;
+            display: block;
+           margin-bottom: 5px;
+          margin-left: 10px;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- 创建一个外部的容器 nav（div） div（div） ul（li） -->
+    <nav class="left-nav">
+        <div class="item">
+            <a href="#">家用电器</a>
+        </div>
+
+        <div class="item">
+            <a href="#">手机</a>
+            <span>/</span>
+            <a href="#">运营商</a>
+            <span>/</span>
+            <a href="#">数码</a>
+        </div>
+
+        <div class="item">
+            <a href="#">电脑</a>
+            <span>/</span>
+            <a href="#">办公</a>
+        </div>
+
+        <div class="item">
+            <a href="#">家居</a>
+            <span>/</span>
+            <a href="#">家具</a>
+            <span>/</span>
+            <a href="#">家装</a>
+            <span>/</span>
+            <a href="#">厨具</a>
+        </div>
+
+        <div class="item">
+            <a href="#">男装</a>
+            <span>/</span>
+            <a href="#">女装</a>
+            <span>/</span>
+            <a href="#">童装</a>
+            <span>/</span>
+            <a href="#">内衣</a>
+        </div>
+
+        <div class="item">
+            <a href="#">美妆</a>
+            <span>/</span>
+            <a href="#">个护清洁</a>
+            <span>/</span>
+            <a href="#">宠物</a>
+        </div>
+
+        <div class="item">
+            <a href="#">女鞋</a>
+            <span>/</span>
+            <a href="#">箱包</a>
+            <span>/</span>
+            <a href="#">钟表</a>
+            <span>/</span>
+            <a href="#">珠宝</a>
+        </div>
+
+        <div class="item">
+            <a href="#">男鞋</a>
+            <span>/</span>
+            <a href="#">运动</a>
+            <span>/</span>
+            <a href="#">户外</a>
+        </div>
+
+        <div class="item">
+            <a href="#">房产</a>
+            <span>/</span>
+            <a href="#">汽车</a>
+            <span>/</span>
+            <a href="#">汽车用品</a>
+        </div>
+
+        <div class="item">
+            <a href="#">母婴</a>
+            <span>/</span>
+            <a href="#">玩具乐器</a>
+        </div>
+
+        <div class="item">
+            <a href="#">食品</a>
+            <span>/</span>
+            <a href="#">酒类</a>
+            <span>/</span>
+            <a href="#">生鲜</a>
+            <span>/</span>
+            <a href="#">特产</a>
+        </div>
+
+        <div class="item">
+            <a href="#">艺术</a>
+            <span>/</span>
+            <a href="#">礼品鲜花</a>
+            <span>/</span>
+            <a href="#">农资绿植</a>
+        </div>
+
+        <div class="item">
+            <a href="#">医药保健</a>
+            <span>/</span>
+            <a href="#">计生情趣</a>
+        </div>
+
+        <div class="item">
+            <a href="#">图书</a>
+            <span>/</span>
+            <a href="#">文娱</a>
+            <span>/</span>
+            <a href="#">电子书</a>
+        </div>
+
+        <div class="item">
+            <a href="#">机票</a>
+            <span>/</span>
+            <a href="#">酒店</a>
+            <span>/</span>
+            <a href="#">旅游</a>
+            <span>/</span>
+            <a href="#">生活</a>
+        </div>
+
+        <div class="item">
+            <a href="#">理财</a>
+            <span>/</span>
+            <a href="#">众筹</a>
+            <span>/</span>
+            <a href="#">白条</a>
+            <span>/</span>
+            <a href="#">保险</a>
+        </div>
+
+        <div class="item">
+            <a href="#">安装</a>
+            <span>/</span>
+            <a href="#">维修</a>
+            <span>/</span>
+            <a href="#">清洗</a>
+            <span>/</span>
+            <a href="#">二手</a>
+        </div>
+
+        <div class="item">
+            <a href="#">工业品</a>
+        </div>
+    </nav>
+
+    <!-- 
+        自己写的
+        <div class="box1">
+        <span>家用电器</span>
+        
+        <span>手机/运营商/数码</span>
+        
+        <span>电脑/办公</span>
+        
+        <span>家居/家具/家装/厨具</span>
+        
+        <span>男装/女装/童装/内衣</span>
+        
+        <span>美妆/个护清洁/宠物</span>
+        
+        <span>女鞋/箱包/钟表/珠宝</span>
+       
+        <span>男鞋/运动/户外</span>
+       
+        <span>房产/汽车/汽车用品</span>
+        
+        <span>母婴/玩具乐器</span>
+       
+        <span>食品/酒类/生鲜/特产</span>
+        
+        <span>艺术/礼品鲜花/农资绿植</span>
+        
+        <span>医药保健/计生情趣</span>
+        
+        <span>图书/文娱/电子书</span>
+        
+        <span>机票/酒店/旅游/生活</span>
+        
+        <span>理财/众筹/白条/保险</span>
+        
+        <span>安装/维修/清洗/二手</span>
+       
+        <span></span>
+       
+    </div> -->
+</body>
+
+</html>
